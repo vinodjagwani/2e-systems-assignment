@@ -1,0 +1,9 @@
+FROM openjdk:11-jdk-slim
+
+EXPOSE 8087
+EXPOSE 9087
+EXPOSE 5005
+
+COPY ./build/libs/metar-job-1.0.jar /app.jar
+
+CMD ["/usr/local/openjdk-11/bin/java", "-jar", "-Dspring.profiles.active=docker", "-Djdk.tls.client.protocols=TLSv1.2", "/app.jar"]

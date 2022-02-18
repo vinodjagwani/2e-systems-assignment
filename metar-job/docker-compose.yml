@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  metar-job:
+    build:
+      context: .
+      dockerfile: ./Dockerfile.server
+    ports:
+      - 8087:8087

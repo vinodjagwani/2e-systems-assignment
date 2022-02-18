@@ -1,0 +1,57 @@
+spring:
+  application:
+    name: ${SPRING_APPLICATION_NAME:metar-service}
+  webflux:
+    basePath: /metar-service
+  main:
+    allow-bean-definition-overriding: true
+  cloud:
+    discovery:
+      enabled: false
+  r2dbc:
+    url: r2dbc:pool:postgresql://localhost:5432/metar-db?schema=public
+    username: postgres
+    password: postgres
+
+management:
+  server:
+    port: 9089
+  security:
+    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: health, metrics, info, prometheus, beans
+  endpoint:
+    health:
+      show-details: always
+
+logging:
+  level:
+    hr:
+      twoesystems:
+        api: TRACE
+    org:
+      zalando:
+        logbook: TRACE
+
+server:
+  port: 8089
+
+logbook:
+  include:
+    - /**
+  exclude:
+    - /actuator/**
+    - ${spring.webflux.basePath}/webjars/**
+    - ${spring.webflux.basePath}/v2/api-docs/**
+    - ${spring.webflux.basePath}/swagger-ui/**
+    - ${spring.webflux.basePath}/swagger-resources/**
+  filter.enabled: true
+  format.style: splunk
+  strategy: default
+  obfuscate:
+    parameters:
+      - access_token
+      - password
+      - token

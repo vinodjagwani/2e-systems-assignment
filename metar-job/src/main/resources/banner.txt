@@ -1,0 +1,16 @@
+222222222222222    EEEEEEEEEEEEEEEEEEEEEE                    SSSSSSSSSSSSSSS YYYYYYY       YYYYYYY   SSSSSSSSSSSSSSS TTTTTTTTTTTTTTTTTTTTTTTEEEEEEEEEEEEEEEEEEEEEEMMMMMMMM               MMMMMMMM
+2:::::::::::::::22  E::::::::::::::::::::E                  SS:::::::::::::::SY:::::Y       Y:::::Y SS:::::::::::::::ST:::::::::::::::::::::TE::::::::::::::::::::EM:::::::M             M:::::::M
+2::::::222222:::::2 E::::::::::::::::::::E                 S:::::SSSSSS::::::SY:::::Y       Y:::::YS:::::SSSSSS::::::ST:::::::::::::::::::::TE::::::::::::::::::::EM::::::::M           M::::::::M
+2222222     2:::::2 EE::::::EEEEEEEEE::::E                 S:::::S     SSSSSSSY::::::Y     Y::::::YS:::::S     SSSSSSST:::::TT:::::::TT:::::TEE::::::EEEEEEEEE::::EM:::::::::M         M:::::::::M
+            2:::::2   E:::::E       EEEEEE                 S:::::S            YYY:::::Y   Y:::::YYYS:::::S            TTTTTT  T:::::T  TTTTTT  E:::::E       EEEEEEM::::::::::M       M::::::::::M
+            2:::::2   E:::::E                              S:::::S               Y:::::Y Y:::::Y   S:::::S                    T:::::T          E:::::E             M:::::::::::M     M:::::::::::M
+         2222::::2    E::::::EEEEEEEEEE                     S::::SSSS             Y:::::Y:::::Y     S::::SSSS                 T:::::T          E::::::EEEEEEEEEE   M:::::::M::::M   M::::M:::::::M
+    22222::::::22     E:::::::::::::::E    ---------------   SS::::::SSSSS         Y:::::::::Y       SS::::::SSSSS            T:::::T          E:::::::::::::::E   M::::::M M::::M M::::M M::::::M
+  22::::::::222       E:::::::::::::::E    -:::::::::::::-     SSS::::::::SS        Y:::::::Y          SSS::::::::SS          T:::::T          E:::::::::::::::E   M::::::M  M::::M::::M  M::::::M
+ 2:::::22222          E::::::EEEEEEEEEE    ---------------        SSSSSS::::S        Y:::::Y              SSSSSS::::S         T:::::T          E::::::EEEEEEEEEE   M::::::M   M:::::::M   M::::::M
+2:::::2               E:::::E                                          S:::::S       Y:::::Y                   S:::::S        T:::::T          E:::::E             M::::::M    M:::::M    M::::::M
+2:::::2               E:::::E       EEEEEE                             S:::::S       Y:::::Y                   S:::::S        T:::::T          E:::::E       EEEEEEM::::::M     MMMMM     M::::::M
+2:::::2       222222EE::::::EEEEEEEE:::::E                 SSSSSSS     S:::::S       Y:::::Y       SSSSSSS     S:::::S      TT:::::::TT      EE::::::EEEEEEEE:::::EM::::::M               M::::::M
+2::::::2222222:::::2E::::::::::::::::::::E                 S::::::SSSSSS:::::S    YYYY:::::YYYY    S::::::SSSSSS:::::S      T:::::::::T      E::::::::::::::::::::EM::::::M               M::::::M
+2::::::::::::::::::2E::::::::::::::::::::E                 S:::::::::::::::SS     Y:::::::::::Y    S:::::::::::::::SS       T:::::::::T      E::::::::::::::::::::EM::::::M               M::::::M
+22222222222222222222EEEEEEEEEEEEEEEEEEEEEE                  SSSSSSSSSSSSSSS       YYYYYYYYYYYYY     SSSSSSSSSSSSSSS         TTTTTTTTTTT      EEEEEEEEEEEEEEEEEEEEEEMMMMMMMM               MMMMMMMM

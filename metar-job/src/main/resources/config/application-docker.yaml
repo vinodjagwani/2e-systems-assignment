@@ -1,0 +1,63 @@
+spring:
+  application:
+    name: ${SPRING_APPLICATION_NAME:metar-job}
+  webflux:
+    basePath: /metar-job
+  main:
+    allow-bean-definition-overriding: true
+  cloud:
+    discovery:
+      enabled: false
+
+management:
+  server:
+    port: 9087
+  security:
+    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: health, metrics, info, prometheus, beans
+  endpoint:
+    health:
+      show-details: always
+
+logging:
+  level:
+    hr:
+      twoesystems:
+        api: TRACE
+    org:
+      zalando:
+        logbook: TRACE
+
+server:
+  port: 8087
+
+logbook:
+  include:
+    - /**
+  exclude:
+    - /actuator/**
+    - ${spring.webflux.basePath}/webjars/**
+    - ${spring.webflux.basePath}/v2/api-docs/**
+    - ${spring.webflux.basePath}/swagger-ui/**
+    - ${spring.webflux.basePath}/swagger-resources/**
+  filter.enabled: true
+  format.style: splunk
+  strategy: default
+  obfuscate:
+    parameters:
+      - access_token
+      - password
+      - token
+
+client:
+  nws-metar:
+    url: https://tgftp.nws.noaa.gov/data/observations/metar/stations/
+  metar-service:
+    url: http://localhost:8089/metar-service/v1/airport/{icaoCode}/METAR
+
+app:
+  metar-job:
+    cron-exp: 0/60 * * * * ?
